@@ -16,4 +16,7 @@ The point of this project was to learn about conducting user research for the sa
 * Although the functionality is not up to public use, the app stands as a testament to the importance of conducting good user research for the sake of solving people's problems. We learned of the paramount importance that comes with understanding what the problem you're trying to solve is before egregiously developing software that either solves the wrong problem, attempts but fails to solve the right problem, or a mixture of both.
 
 ### Screenshots
-
+![profileprompt](https://github.com/gabechutuape/cs-465-sportinate/blob/main/images/makeaprofile.png)
+![profileview](https://github.com/gabechutuape/cs-465-sportinate/blob/main/images/profileview.png)
+![groupbrowse](https://github.com/gabechutuape/cs-465-sportinate/blob/main/images/groupbrowse.png)
+![groupview](https://github.com/gabechutuape/cs-465-sportinate/blob/main/images/groupview.png)
