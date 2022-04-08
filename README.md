@@ -15,6 +15,10 @@ The point of this project was to learn about conducting user research for the sa
 * The result was our Java app Sportinate, which we made entirely in Android Studio over the course of eight weeks. It features a groups tab for browsing currently ready to join local sports groups, group coordination options for hosting your own sports groups, group joining, and profile creation.
 * Although the functionality is not up to public use, the app stands as a testament to the importance of conducting good user research for the sake of solving people's problems. We learned of the paramount importance that comes with understanding what the problem you're trying to solve is before egregiously developing software that either solves the wrong problem, attempts but fails to solve the right problem, or a mixture of both.
 
+### The Program
+* You can run this program by cloning this repo onto your machine, opening and compiling it with Android Studio, and running it on a virtual machine emulator of a phone or with your connected phone.
+* Example screenshots ahead are taken on an emulated Pixel 4 XL API29.
+
 ### Screenshots
 * The landing page, featuring a prompt to make a profile for faster user accommodation
 
