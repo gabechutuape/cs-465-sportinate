@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="70dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue_grey"
+            android:background="@drawable/rounded_edge"
+            android:layout_marginTop="40dp"
+            android:id="@+id/name_layout"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_name"
+                    android:fontFamily="@font/opensans_1"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/rounded_edge"
+                >
+                <EditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/blue_grey"
+            android:background="@drawable/rounded_edge"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/choose_photo"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/blue_grey"
+                android:textColor="@color/black"
+                android:visibility="visible"
+                android:text="Choose Photo" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                android:minWidth="150dp"
+                android:minHeight="150dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue_grey"
+            android:background="@drawable/rounded_edge"
+            android:layout_marginTop="40dp"
+            android:id="@+id/email_layout"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_Email"
+                    android:fontFamily="@font/opensans_1"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/rounded_edge"
+                >
+                <EditText
+                    android:id="@+id/user_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/blue_grey"
+            android:background="@drawable/rounded_edge"
+            android:layout_marginTop="40dp"
+            android:id="@+id/time_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/availability"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/opensans_1"
+                    android:textSize="24sp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:background="@color/blue_grey"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:text="Add your available time slots using the ADD button"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="left"
+                        android:text="Time slots:"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageButton
+                        android:id="@+id/clear_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity ="right"
+                        android:src="@android:drawable/ic_menu_close_clear_cancel"
+                        android:onClick="onClearTimeClicked"
+                        android:backgroundTint="@color/blue_grey"></ImageButton>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/time_slots"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/blue_grey"
+                    >
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/rounded_edge"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Choose a day"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/date_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/rounded_edge"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Time slot"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="From"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/start_hour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:ems="2"
+                        android:text="12"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:inputType="number|time" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/start_minute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:ems="2"
+                        android:text="00"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:inputType="number|time" />
+
+                    <Spinner
+                        android:id="@+id/start_time_spinner"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="To    "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/end_hour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:ems="2"
+                        android:text="01"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:inputType="number|time" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/end_minute"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:ems="2"
+                        android:text="00"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:inputType="number|time" />
+
+                    <Spinner
+                        android:id="@+id/end_time_spinner"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/add_time_slot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/blue_button"
+                android:onClick="onAddTimeSlotClicked"
+                android:text="Add" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/blue_grey"
+            android:background="@drawable/rounded_edge"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user_desc"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/opensans_1"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/rounded_edge"
+                >
+                <EditText
+                    android:id="@+id/message"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:ems="10"
+                    android:hint="Include any additional info about yourself"
+                    android:inputType="textMultiLine"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:singleLine="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/dark_grey"
+            android:text="@string/profile_info_message"
+            android:textSize="16sp">
+
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:gravity="bottom|center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/next_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/blue_button"
+                android:layout_margin="10dp"
+                android:text="Add a Sport" />
+
+            <Button
+                android:id="@+id/back_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/blue_button"
+                android:textAllCaps="false"
+                android:text="My Profile" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
