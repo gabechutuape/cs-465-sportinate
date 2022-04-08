@@ -17,13 +17,17 @@ The point of this project was to learn about conducting user research for the sa
 
 ### Screenshots
 * The landing page, featuring a prompt to make a profile for faster user accommodation
+
 ![profileprompt](https://github.com/gabechutuape/cs-465-sportinate/blob/main/images/makeaprofile.png)
 
 * A view of the user's profile
+
 ![profileview](https://github.com/gabechutuape/cs-465-sportinate/blob/main/images/profileview.png)
 
 * The list of currently open groups
+
 ![groupbrowse](https://github.com/gabechutuape/cs-465-sportinate/blob/main/images/groupbrowse.png)
 
 * What a group description page would look like
+
 ![groupview](https://github.com/gabechutuape/cs-465-sportinate/blob/main/images/groupview.png)
